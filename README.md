@@ -20,3 +20,7 @@ The project aims to showcase my skills in web development using React and Bootst
 
 1. Clone the repository:
 git clone https://github.com/kirankumarrajput/NinjaMail/blob/main/README.md
+
+
+2. Navigate to the project directory:
+cd NinjaMail
