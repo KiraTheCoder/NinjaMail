@@ -35,7 +35,6 @@ After starting the development server, you can access the application by navigat
 
 ## Credits
 
-- Design inspiration: [Figma](https://www.figma.com)
+- Design inspiration: [Figma](https://www.figma.com/file/jEXwf6njsiU3Q5BqeF4fXA/NinjaMail-(Community)?type=design&node-id=0-1&mode=design&t=WRdj1KHZIvyD9aBF-0)
 - React: [React](https://reactjs.org)
 - Bootstrap: [Bootstrap](https://getbootstrap.com)
-- Other dependencies: [list of dependencies]
