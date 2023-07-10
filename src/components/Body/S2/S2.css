@@ -1,0 +1,212 @@
+/* ----------Video section-------- */
+/*  */
+/*  */
+.video-image-card {
+  width: 19rem;
+  height: 12.64156rem;
+  flex-shrink: 0;
+}
+
+.video-img-row {
+  background-color: #e6d8d8;
+}
+
+.Videoimg {
+  width: 19rem;
+  height: 12.64156rem;
+  flex-shrink: 0;
+  z-index: 2;
+}
+
+.card-img-overlay {
+  height: 66rem;
+}
+.reach-customer-title {
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.8125rem;
+}
+
+.reach-customer-btn {
+  width: 4.625rem;
+  height: 1.35125rem;
+  flex-shrink: 0;
+  background-color: #fff;
+  margin-top: 0.5rem;
+  z-index: 2;
+}
+
+.reach-customer-btn p {
+  color: #4ba87d;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 0.495rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 0.94375rem;
+  letter-spacing: 0.01875rem;
+}
+
+.videoBG {
+  position: absolute;
+}
+/* 
+/\* _/
+/_ _/
+/_ _/
+/_ _/ 
+/_ medium mobile \*/
+
+@media (min-width: 321px) {
+  .Videoimg {
+    min-width: 22rem;
+    min-height: 13.64156rem;
+  }
+
+  .card-img-overlay {
+    height: 68rem;
+  }
+  .reach-customer-title {
+    color: #fff;
+    font-family: Playfair Display;
+    font-size: 1.575rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.8125rem;
+  }
+
+  .reach-customer-btn {
+    width: 5.25rem;
+    height: 1.7125rem;
+    flex-shrink: 0;
+    background-color: #fff;
+    margin-top: 1rem;
+    z-index: 2;
+  }
+
+  .reach-customer-btn p {
+    color: #4ba87d;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 0.611rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.375rem;
+    letter-spacing: 0.01875rem;
+  }
+}
+/* /\* _/
+/_ _/
+/_ _/
+/_ \*/
+
+/*tablet device \*/
+
+@media (min-width: 426px) {
+  .Videoimg {
+    min-width: 38.5rem;
+    min-height: 25.61575rem;
+    margin-top: 1rem;
+  }
+
+  .card-img-overlay {
+    height: 68rem;
+  }
+  .reach-customer-title {
+    font-size: 2.575rem;
+    font-weight: 900;
+    line-height: 3.1875rem;
+  }
+
+  .reach-customer-btn {
+    width: 8.25rem;
+    height: 2.425rem;
+    margin-top: 1rem;
+  }
+
+  .reach-customer-btn p {
+    color: #4ba87d;
+    font-size: 0.9125rem;
+    line-height: 1.975rem;
+    letter-spacing: 0.04063rem;
+  }
+}
+
+/* /\* _/
+/_ _/
+/_ _/
+/_ _/
+/_ \*/
+
+/* /_ small Desktop and small laptops_/
+ */
+@media (min-width: 769px) {
+  .Videoimg {
+    width: 55rem;
+    height: 32rem;
+    flex-shrink: 0;
+    z-index: 1;
+    margin-top: 2rem;
+  }
+
+  .card-img-overlay {
+    height: 88rem;
+  }
+  .reach-customer-title {
+    font-size: 3.75rem;
+    line-height: 5rem;
+  }
+
+  .reach-customer-btn {
+    width: 12.5rem;
+    height: 3.5rem;
+    margin-top: 3rem;
+  }
+
+  .reach-customer-btn p {
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1rem;
+    letter-spacing: 0.06563rem;
+    padding-top: 0.8rem;
+  }
+}
+/* /\* 
+/_ _
+/_ _/
+/_ _/
+/_ \*/
+
+/* /_ Large laptop _/ */
+@media (min-width: 1025px) {
+  .Videoimg {
+    width: 67rem;
+    height: 38rem;
+    margin-top: 3rem;
+  }
+
+  .card-img-overlay {
+    height: 107rem;
+  }
+  .reach-customer-title {
+    font-size: 4.5rem;
+    line-height: 6rem;
+    z-index: 2;
+  }
+
+  .reach-customer-btn {
+    width: 15rem;
+    height: 4.5rem;
+    margin-top: 3rem;
+  }
+
+  .reach-customer-btn p {
+    font-size: 2rem;
+    line-height: 1rem;
+    letter-spacing: 0.06563rem;
+    padding-top: 0.8rem;
+  }
+}

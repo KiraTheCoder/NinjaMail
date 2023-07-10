@@ -1,0 +1,304 @@
+.learn-text {
+  display: flex;
+  width: 17rem;
+  height: 7.6875rem;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 2.25rem;
+}
+
+.email-input {
+  width: 13.9375rem;
+  height: 2.625rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  border: 1px solid #9f9f9f;
+  background: #fff;
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.9375rem;
+  letter-spacing: 0.04063rem;
+  padding-left: 1rem;
+}
+
+.thanksEmail {
+  color: #4ba87d;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.875rem;
+  letter-spacing: 0.0375rem;
+}
+
+.joinBtn {
+  width: 9rem;
+  height: 2.625rem;
+  flex-shrink: 0;
+  background: #4ba87d;
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 0.825rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1rem;
+  letter-spacing: 0.05rem;
+  padding-top: 0.4rem;
+}
+
+.best-brand-text {
+  display: flex;
+  width: 17.5625rem;
+  height: 6.875rem;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 2.25rem;
+}
+
+.brand-img-1 {
+  width: 3.4375rem;
+  height: 1.8125rem;
+  flex-shrink: 0;
+}
+
+.brand-img-2 {
+  width: 5.6875rem;
+  height: 0.9375rem;
+  flex-shrink: 0;
+}
+
+.brand-img-3 {
+  width: 6.5rem;
+  height: 1.375rem;
+  flex-shrink: 0;
+}
+
+.brand-img-4 {
+  width: 5.75rem;
+  height: 1.0625rem;
+  flex-shrink: 0;
+}
+
+.brand-img-5 {
+  width: 5.875rem;
+  height: 1.9375rem;
+  flex-shrink: 0;
+}
+
+/* / _/
+/_ _/
+/_ _/
+/_ _/
+/_ medium mobile \ */
+
+@media (min-width: 321px) {
+  .learn-text {
+    width: 18rem;
+    font-size: 1.725rem;
+  }
+
+  .email-input {
+    width: 15.9375rem;
+  }
+}
+
+/* /_/
+/_ _/
+/_ _/
+/_ 
+tablets device \ */
+
+@media (min-width: 426px) {
+  .learn-text {
+    width: 36.9375rem;
+    height: 5.5625rem;
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 2.25rem;
+  }
+
+  .email-input {
+    width: 17.1875rem;
+    height: 2.625rem;
+    border-radius: 0.3125rem;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 0.9375rem;
+    letter-spacing: 0.04063rem;
+  }
+
+  .thanksEmail {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 0.9375rem;
+    letter-spacing: 0.04063rem;
+  }
+
+  .joinBtn {
+    width: 9rem;
+    height: 2.625rem;
+  }
+
+  .best-brand-text {
+    width: 38.5625rem;
+    height: 6.875rem;
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 2.25rem;
+  }
+}
+
+/* 
+/\_/
+/_ _/
+/_ _/
+/_ _/
+/_ \
+
+/_ small Desktop and small laptops_/ */
+@media (min-width: 769px) {
+  .learn-text {
+    width: 56.5rem;
+    height: 7.875rem;
+    font-size: 2.75rem;
+    font-weight: 900;
+    line-height: 3rem;
+  }
+
+  .email-input {
+    width: 26.25rem;
+    height: 4.0625rem;
+    border: 1px solid #9f9f9f;
+    font-size: 1.3125rem;
+    font-weight: 500;
+    line-height: 1.5625rem;
+    letter-spacing: 0.06563rem;
+  }
+
+  .thanksEmail {
+    font-size: 1.3125rem;
+    font-weight: 500;
+    line-height: 1.5625rem;
+    letter-spacing: 0.06563rem;
+  }
+
+  .joinBtn {
+    width: 13.8125rem;
+    height: 4.0625rem;
+  }
+
+  .best-brand-text {
+    width: 59rem;
+    height: 7.75rem;
+    color: #000;
+    font-size: 2.75rem;
+    line-height: 3rem;
+  }
+
+  .brand-img-1 {
+    width: 5.3125rem;
+    height: 2.75rem;
+    padding-left: 1.5rem;
+  }
+
+  .brand-img-2 {
+    width: 8.625rem;
+    height: 1.375rem;
+    padding-left: 1.5rem;
+  }
+
+  .brand-img-3 {
+    width: 10rem;
+    height: 2.0625rem;
+    padding-left: 1.5rem;
+  }
+
+  .brand-img-4 {
+    width: 8.8125rem;
+    height: 1.5625rem;
+    padding-left: 1.5rem;
+  }
+
+  .brand-img-5 {
+    width: 9.0625rem;
+    height: 3rem;
+    padding-left: 1.5rem;
+  }
+
+  .logos-container {
+    width: 57.875rem;
+    height: 3rem;
+    text-align: center;
+  }
+}
+
+/* _/
+/_ _/
+/_ _/
+/_ _/
+/_ \
+
+/_ Large laptop _/ */
+@media (min-width: 1025px) {
+  .learn-text {
+    width: 59.5rem;
+    height: 7.875rem;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 2.75rem;
+    font-weight: 900;
+    line-height: 3rem;
+  }
+
+  .email-input {
+    padding-left: 15px;
+    margin-bottom: 0.2rem;
+    width: 26.25rem;
+    height: 4.0625rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    font-size: 1.3125rem;
+    line-height: 1.5625rem;
+    letter-spacing: 0.06563rem;
+  }
+
+  .thanksEmail {
+    font-size: 1.3125rem;
+    line-height: 1.5625rem;
+    letter-spacing: 0.04563rem;
+  }
+
+  .joinBtn {
+    width: 13.8125rem;
+    height: 4rem;
+    font-size: 1.3125rem;
+    font-weight: 900;
+    line-height: 1.5625rem;
+    letter-spacing: 0.06563rem;
+  }
+
+  .best-brand-text {
+    width: 59rem;
+    height: 7.75rem;
+    color: #000;
+    font-size: 2.75rem;
+    font-weight: 900;
+    line-height: 3rem;
+  }
+}

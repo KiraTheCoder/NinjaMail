@@ -1,0 +1,415 @@
+/* ----------Create Stunning main------------ */
+
+.Stunning-card {
+  z-index: 1;
+  width: 19.2125rem;
+  height: 20.26375rem;
+  background-color: transparent;
+  border: transparent;
+  margin-top: -3.5rem;
+}
+
+.stunning-head {
+  color: #000;
+  font-family: Playfair Display;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 2.875rem;
+}
+
+.stunning-para {
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.83rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem;
+  margin-top: 6rem;
+}
+
+.btn-container {
+  margin-top: -1rem;
+}
+
+.stunning-btn-1 {
+  width: 8.9375rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 0.9375rem;
+  letter-spacing: 0.08125rem;
+  background-color: #4ba87d;
+  margin-right: 1rem;
+}
+
+.stunning-btn-2 {
+  width: 8.9375rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+  color: #4ba87d;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 0.9375rem;
+  letter-spacing: 0.08125rem;
+  border: 3px solid #4ba87d;
+  background: #fff;
+}
+
+.stunning-card-img {
+  width: 19.89038rem;
+  height: 13.26806rem;
+  border: transparent;
+  position: absolute;
+  transform: translate(-0.3rem, -16.2rem);
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* Samll elements */
+.Stunning-circle-1 {
+  width: 0.6875rem;
+  height: 0.6875rem;
+  flex-shrink: 0;
+  fill: #fff;
+  stroke-width: 1px;
+  stroke: #707070;
+  position: absolute;
+  translate: -24rem -2rem;
+}
+
+.Stunning-circle-2 {
+  width: 0.6875rem;
+  height: 0.6875rem;
+  flex-shrink: 0;
+  fill: #fff;
+  stroke-width: 1px;
+  stroke: #70707Stunning-card;
+  height: 0.6875rem;
+  flex-shrink: 0;
+  fill: #fff;
+  stroke-width: 1px;
+  stroke: #000000;
+  position: absolute;
+  translate: -3rem 150rem;
+}
+
+.Stunning-circle-4 {
+  width: 2.3125rem;
+  height: 2.3125rem;
+  flex-shrink: 0;
+  fill: #d9f4f2;
+  position: absoluStunning-cardte;
+  translate: 300px 5px;
+}
+
+.Stunning-rectangle-1 {
+  position: absolute;
+  translate: 560px -25px;
+}
+
+.Stunning-rectangle-3 {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  opacity: 0.7955330014228821;
+  background: #f4f4f4;
+  position: absolute;
+  translate: 760px 8px;
+}
+
+.Stunning-rectangle-4 {
+  width: 2.49288rem;
+  height: 2.49288rem;
+  transform: rotate(45deg);
+  background: #f4bebd;
+  position: absolute;
+  translate: -270px 430px;
+}
+
+/* ------------ */
+
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* medium mobile  */
+
+@media (min-width: 321px) {
+  .stunning-card-img {
+    transform: translate(-21rem, 0.5rem);
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+
+/*Large mobile device  */
+
+@media (min-width: 380px) {
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*tablets  */
+
+@media (min-width: 426px) {
+  .Stunning-card {
+    width: 23.6875rem;
+    height: 13rem;
+    margin-left: -21rem;
+  }
+
+  .stunning-card-img {
+    width: 29.504rem;
+    height: 13.68094rem;
+    transform: translate(-6rem, -14rem);
+  }
+
+  .card-stunning-head {
+    font-size: 2.4rem;
+    line-height: 2.875rem;
+  }
+
+  .stunning-para {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin-top: 0;
+  }
+
+  .btn-container {
+    margin-top: -1rem;
+    margin-left: -4.5rem;
+  }
+  .stunning-btn-1 {
+    width: 8.1875rem;
+    height: 2.625rem;
+    font-size: 0.8125rem;
+    line-height: 0.9375rem;
+    letter-spacing: 0.04063rem;
+  }
+
+  .stunning-btn-2 {
+    width: 8.1875rem;
+    height: 2.625rem;
+    font-size: 0.8125rem;
+    line-height: 0.9375rem;
+    letter-spacing: 0.08125rem;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+
+/* samll Desktop and small laptops*/
+@media (min-width: 769px) {
+  .Stunning-card {
+    width: 28.5625rem;
+    height: 15.8125rem;
+  }
+
+  .stunning-card-img {
+    width: 35.08481rem;
+    height: 18.07425rem;
+    transform: translate(-7rem, -18rem);
+  }
+
+  .card-stunning-head {
+    font-size: 3rem;
+    line-height: 3.4375rem;
+  }
+
+  .stunning-para {
+    font-size: 1.1rem;
+    line-height: 1.425rem;
+    margin-top: 0;
+  }
+
+  .btn-container {
+    margin-top: 0rem;
+    margin-left: -4rem;
+  }
+  .stunning-btn-1 {
+    width: 9.8rem;
+    height: 3.5625rem;
+    font-size: 1.2125rem;
+    line-height: 1.5625rem;
+    letter-spacing: 0.06563rem;
+  }
+
+  .stunning-btn-2 {
+    width: 9.8rem;
+    height: 3.5625rem;
+    font-size: 1.2rem;
+    line-height: 1.5625rem;
+    letter-spacing: 0.13125rem;
+    margin-left: 2rem;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/* samll Desktop and small laptops*/
+
+@media (min-width: 900px) {
+  .stunning-card-img {
+    width: 35.08481rem;
+    height: 18.07425rem;
+    transform: translate(-7rem, -5rem);
+  }
+}
+
+/*  */
+
+/* Large laptop */
+@media (min-width: 1025px) {
+  .Stunning-card {
+    z-index: 3;
+    width: 36rem;
+    height: 20rem;
+    margin-left: -30rem;
+  }
+
+  .stunning-card-img {
+    margin-left: -200px;
+    width: 42.08481rem;
+    height: 30.07425rem;
+    flex-shrink: 0;
+    border: transparent;
+    background-color: transparent;
+    position: absolute;
+    transform: translate(5rem, -4.7rem);
+  }
+
+  .card-stunning-head {
+    color: #000;
+    font-size: 3.6875rem;
+    font-weight: 900;
+    line-height: 4.4375rem;
+  }
+
+  .stunning-para {
+    color: #000;
+    font-size: 1.3875rem;
+    font-weight: 500;
+    line-height: 1.625stunning-headrem;
+  }
+
+  .btn-container {
+    margin-top: -2rem;
+    margin-left: -6rem;
+  }
+  .stunning-btn-1 {
+    width: 12rem;
+    height: 3.7rem;
+    flex-shrink: 0;
+    font-size: 1.3125rem;
+    font-weight: 900;
+    line-height: 1.5625rem;
+    letter-spacing: 0.06563rem;
+  }
+
+  .stunning-btn-2 {
+    width: 12rem;
+    height: 3.7rem;
+    flex-shrink: 0;
+    color: #4ba87d;
+    font-size: 1.3125rem;
+    font-weight: 900;
+    line-height: 1.5625rem;
+    letter-spacing: 0.13125rem;
+    margin-left: 30px;
+    border: 3px solid #4ba87d;
+    background: #fff;
+  }
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* Samll elements */
+  .Stunning-circle-1 {
+    width: 0.6875rem;
+    height: 0.6875rem;
+    flex-shrink: 0;
+    fill: #fff;
+    stroke-width: 1px;
+    stroke: #707070;
+    position: absolute;
+    translate: -24rem -2rem;
+  }
+
+  .Stunning-circle-2 {
+    width: 0.6875rem;
+    height: 0.6875rem;
+    flex-shrink: 0;
+    fill: #fff;
+    stroke-width: 1px;
+    stroke: #707070;
+    position: absolute;
+    translate: -20rem 18rem;
+  }
+  .Stunning-circle-3 {
+    width: 0.6875rem;
+    height: 0.6875rem;
+    flex-shrink: 0;
+    fill: #fff;
+    stroke-width: 1px;
+    stroke: #000000;
+    position: absolute;
+    translate: -3rem 150rem;
+  }
+
+  .Stunning-circle-4 {
+    width: 2.3125rem;
+    height: 2.3125rem;
+    flex-shrink: 0;
+    fill: #d9f4f2;
+    position: absolute;
+    translate: 300px 5px;
+  }
+
+  .Stunning-rectangle-1 {
+    position: absolute;
+    translate: 560px -25px;
+  }
+
+  .Stunning-rectangle-3 {
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+    opacity: 0.7955330014228821;
+    background: #f4f4f4;
+    position: absolute;
+    translate: 760px 8px;
+  }
+
+  .Stunning-rectangle-4 {
+    width: 2.49288rem;
+    height: 2.49288rem;
+    transform: rotate(45deg);
+    background: #f4bebd;
+    position: absolute;
+    translate: -270px 430px;
+  }
+
+  /* ------------ */
+}

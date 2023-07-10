@@ -1,0 +1,226 @@
+/* CSS styles for small mobile phones */
+.nav-link {
+  display: none;
+}
+.nav-list {
+  list-style-type: none;
+}
+.nav-bar-container {
+  min-width: 100vw;
+  min-height: 3.175rem;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 10% 0 -15% 0;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.NinjaMail-lmage-Text-conatiner {
+  display: flex;
+}
+.mailImage {
+  padding-right: -1rem;
+  width: 5.25rem;
+  height: 2.625rem;
+  flex-shrink: 0;
+  background: rgb(255, 255, 255) 0px 0px / 100% 100% no-repeat;
+}
+
+.NinjaMailmageText {
+  color: #000;
+  font-family: Raleway;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.625rem;
+  padding-top: 0.5rem;
+}
+
+.navbar-btn {
+  width: 6.875rem;
+  height: 1.5625rem;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 0.6675rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 0.8125rem;
+  letter-spacing: 0.05156rem;
+  background: #4ba87d;
+  margin: 0.2rem 1.5rem 0.8rem 0;
+}
+
+/*  */
+/*  */
+/*  */ /*  */
+/*  */
+/* medium mobile  */
+
+@media (min-width: 321px) {
+  .navbar-btn {
+    margin-left: 2.5rem;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* Large Mobile */
+@media (min-width: 376px) {
+  .nav-bar-container {
+    top: 0;
+  }
+  .navbar-btn {
+    width: 7.4rem;
+    height: 1.9rem;
+    font-size: 0.7275rem;
+    font-weight: 800;
+    line-height: 1.2rem;
+    margin: 0.5rem 2 rem 0.8rem 4rem;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* 
+CSS styles for tablets  */
+@media (min-width: 426px) {
+  .nav-link {
+    color: #000;
+    font-family: Raleway;
+    font-size: 0.6875rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 0.8125rem;
+    letter-spacing: 0.05156rem;
+    margin: -0.5rem;
+    display: inline;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.1875rem;
+    text-decoration-color: #4ba87d;
+    text-underline-offset: 0.3rem;
+  }
+
+  .navbar-btn {
+    width: 6.875rem;
+    height: 1.5625rem;
+    font-size: 0.6475rem;
+    line-height: 0.8125rem;
+    letter-spacing: 0.05156rem;
+    margin-left: 0.5rem;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/*small Desktop and small laptop*/
+@media (min-width: 769px) {
+  .NinjaMail-lmage-Text-conatiner {
+    margin-right: 12.5rem;
+  }
+  .mailImage {
+    width: 6.25rem;
+    height: 3.625rem;
+  }
+  .NinjaMailmageText {
+    color: #000;
+    font-size: 1.975rem;
+    line-height: 2.625rem;
+  }
+
+  .nav-link {
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 800;
+    line-height: 0.925rem;
+    letter-spacing: 0.06156rem;
+    margin: -0.4rem;
+    text-decoration-thickness: 0.2175rem;
+    text-decoration-color: #4ba87d;
+    text-underline-offset: 0.4rem;
+  }
+
+  .navbar-btn {
+    width: 9rem;
+    height: 2.4rem;
+    flex-shrink: 0;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.06156rem;
+    margin-left: 0.5rem;
+    margin-right: 2rem;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* Large laptop */
+@media (min-width: 1025px) {
+  .mailImage {
+    width: 8.0625rem;
+    height: 4.03125rem;
+  }
+
+  .NinjaMailmageText {
+    color: #000000;
+    font-size: 2.1875rem;
+    line-height: 2.5625rem;
+  }
+
+  .nav-link {
+    font-size: 1.0625rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.07969rem;
+    margin: 0.1rem;
+    text-decoration-thickness: 0.3125rem;
+    text-underline-offset: 0.6rem;
+  }
+
+  .navbar-btn {
+    width: 10.5rem;
+    height: 2.7625rem;
+    flex-shrink: 0;
+    font-size: 1.0625rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.0469rem;
+    padding-top: 0.7rem;
+    margin-left: -3rem;
+  }
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* larger device */
+@media (min-width: 1090px) {
+  .NinjaMail-lmage-Text-conatiner {
+    margin-right: min(26rem);
+  }
+
+  .navbar-btn {
+    margin-left: 1rem;
+  }
+}

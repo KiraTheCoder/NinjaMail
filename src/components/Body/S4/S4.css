@@ -1,0 +1,189 @@
+.audience-card {
+  width: 13.9375rem;
+  height: 9.8125rem;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+
+.audience-photo {
+  width: 13.9375rem;
+  height: 9.8125rem;
+  flex-shrink: 0;
+  background: linear-gradient(0deg, #000 0%, rgba(84, 84, 84, 0) 100%);
+}
+.audience-text-heading {
+  display: flex;
+  width: 8.9375rem;
+  height: 1.8125rem;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.625rem;
+}
+.audience-text-para {
+  display: flex;
+  width: 10.875rem;
+  height: 1.375rem;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.875rem;
+  margin-top: -1rem;
+}
+
+.audience-text-container {
+  position: absolute;
+  translate: 0.4rem -3rem;
+}
+
+/* 
+\* _/
+/_ _/
+/_ _/
+/_ _/
+/_ medium mobile \ */
+
+@media (min-width: 321px) {
+  .audience-card {
+    width: 15rem;
+    height: 10rem;
+  }
+
+  .audience-photo {
+    width: 15rem;
+    height: 10rem;
+  }
+}
+
+/* /\* _/
+/_ _/
+/_ _/
+/_ \
+
+/_Large mobile device _/ */
+
+@media (min-width: 380px) {
+  .audience-card {
+    width: 18rem;
+    height: 12rem;
+    margin-top: 1.5rem;
+  }
+
+  .audience-photo {
+    width: 18rem;
+    height: 12rem;
+  }
+
+  .audience-text-heading {
+    font-size: 1.5rem;
+  }
+  .audience-text-para {
+    font-size: 0.9rem;
+  }
+
+  .audience-text-container {
+    translate: 0.5rem -3.5rem;
+  }
+}
+/* 
+/\* _/
+/_ _/
+/_ _/
+/_ 
+/*tablets device \*/
+
+@media (min-width: 426px) {
+  .audience-card {
+    width: 13.9375rem;
+    height: 9.8125rem;
+    margin: 0.6rem;
+  }
+
+  .audience-photo {
+    width: 13.9375rem;
+    height: 9.8125rem;
+  }
+
+  .audience-text-heading {
+    font-size: 1.375rem;
+  }
+  .audience-text-para {
+    font-size: 0.75rem;
+  }
+
+  .audience-text-container {
+    translate: 0.5rem -3.2rem;
+  }
+}
+
+/* /\* _/
+/_ _/
+/_ _/
+/_ _/
+/_ \*/
+
+/* /_ samll Desktop and small laptops_/ */
+@media (min-width: 769px) {
+  .audience-card {
+    width: 15rem;
+    height: 10rem;
+    margin: 0 1rem;
+  }
+
+  .audience-photo {
+    width: 16rem;
+    height: 11rem;
+  }
+
+  .audience-text-heading {
+    font-size: 1.6rem;
+  }
+  .audience-text-para {
+    font-size: 0.8rem;
+  }
+
+  .audience-text-container {
+    translate: 0.5rem -3.2rem;
+  }
+}
+
+/* /\* _/
+/_ _/
+/_ _/
+/_ _/
+/_ \*/
+
+/* /_ Large laptop _/  */
+@media (min-width: 1025px) {
+  .audience-card {
+    width: 21.375rem;
+    height: 14.9375rem;
+    margin: 2rem;
+  }
+  .audience-photo {
+    width: 21.375rem;
+    height: 14.9375rem;
+  }
+
+  .audience-text-heading {
+    font-size: 2.125rem;
+  }
+  .audience-text-para {
+    width: 16.625rem;
+    height: 2.125rem;
+    font-size: 1.1875rem;
+    line-height: 1.375rem;
+    font-size: 1.1875rem;
+  }
+  .audience-text-container {
+    translate: 1rem -4rem;
+  }
+}

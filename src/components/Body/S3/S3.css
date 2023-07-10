@@ -1,0 +1,433 @@
+.row {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+/* -----------email-campaigns--------------- */
+/*  */
+/*  */
+
+/*  */
+.campaing-img-1 {
+  width: 13.36494rem;
+  height: 11.57663rem;
+  flex-shrink: 0;
+}
+
+.campaing-img-2 {
+  width: 13.28225rem;
+  height: 11.5215rem;
+  flex-shrink: 0;
+}
+
+.email-campaigns-card-text-1 {
+  border: transparent;
+  display: flex;
+  width: 10.25rem;
+  height: 4.9375rem;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+.email-campaigns-card-text-2 {
+  display: flex;
+  width: 10.625rem;
+  height: 4.5625rem;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+.email-campaigns-card-body-1 {
+  background-color: #ffffff;
+  width: 13.36494rem;
+}
+.email-campaigns-card-body-2 {
+  background-color: #ffffff;
+  width: 10.625rem;
+}
+.email-campaigns-card-text {
+  width: 15.6875rem;
+  height: 7.5rem;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem;
+  padding-left: 1rem;
+}
+.card-anchor-text-1 {
+  margin-top: -1rem;
+}
+.card-anchor-text {
+  display: flex;
+  width: 10.25rem;
+  height: 1.125rem;
+  flex-direction: column;
+  color: #4ba87d;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 0.875rem;
+}
+
+.card-text-bold {
+  color: #000;
+  font-family: Playfair Display;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.9375rem;
+}
+
+.card-text-normal-text {
+  color: #000;
+  font-family: Raleway;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem;
+  margin-right: 3rem;
+}
+
+.card-1 {
+  background-color: transparent;
+  border: transparent;
+}
+.card-2 {
+  margin: 1rem 0 0 5.5rem;
+  background-color: transparent;
+  border: transparent;
+}
+
+.card-3 {
+  margin-left: 1rem;
+  background-color: transparent;
+  border: transparent;
+}
+
+/*  */
+/*  */
+
+/*  */
+
+.svg-bg {
+  position: absolute;
+  width: 120.01931rem;
+  height: 40.24194rem;
+  fill: #caeac7;
+  translate: -22.650000000000006rem -28.75rem;
+  z-index: -3;
+}
+.email-campaigns-circle-1 {
+  width: 1.0625rem;
+  height: 1.0625rem;
+  flex-shrink: 0;
+  opacity: 0.3444949984550476;
+  /* background: #f4f4f4; */
+  background: #0e0d0d;
+  position: absolute;
+  translate: 80rem 30rem;
+}
+
+.email-campaigns-circle-2 {
+  width: 0.75rem;
+  height: 0.75rem;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  stroke: #707070;
+  stroke: #000000;
+  position: absolute;
+  translate: 1rem 41rem;
+}
+
+.email-campaigns-circle-3 {
+  width: 2.375rem;
+  height: 2.4375rem;
+  flex-shrink: 0;
+  fill: #afcbad;
+  position: absolute;
+  translate: 95.5rem 30rem;
+}
+
+.email-campaigns-rectangle-1 {
+  width: 1.9375rem;
+  height: 1.9375rem;
+  flex-shrink: 0;
+  opacity: 0.418953001499176;
+  background: #fff;
+  position: absolute;
+  translate: 1.1rem 90rem;
+}
+
+.email-campaigns-rectangle-2 {
+  width: 2.61888rem;
+  height: 2.48756rem;
+  transform: rotate(45deg);
+  flex-shrink: 0;
+  opacity: 0.06074070185422897;
+  background: #000;
+  position: absolute;
+  translate: -7rem 20rem;
+}
+
+.email-campaigns-rectangle-3 {
+  width: 2.61888rem;
+  height: 2.61888rem;
+  transform: rotate(45deg);
+  flex-shrink: 0;
+  opacity: 0.30239400267601013;
+  background: #fff;
+  position: absolute;
+  translate: 5rem 33.3rem;
+}
+
+.email-campaigns-rectangle-4 {
+  width: 3.80075rem;
+  height: 3.80075rem;
+  transform: rotate(45deg);
+  flex-shrink: 0;
+  opacity: 0.3066270053386688;
+  background: #fff;
+  position: absolute;
+  translate: 80rem -10rem;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/* medium mobile  */
+
+@media (min-width: 321px) {
+  .card-2 {
+    margin: 1rem 0 0 8.5rem;
+  }
+
+  .card-3 {
+    margin-left: 2rem;
+  }
+}
+/*  */
+/*  */
+/*  */
+/*  */
+
+/*Large mobile device  */
+
+@media (min-width: 380px) {
+  .card-1 {
+    margin-left: 1rem;
+  }
+  .card-2 {
+    margin: 1rem 0 0 10rem;
+  }
+
+  .card-3 {
+    margin-left: 5rem;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*tablets device  */
+
+@media (min-width: 426px) {
+  .email-campaigns-card-text {
+    width: 15.6875rem;
+    height: 7.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    padding-left: 1rem;
+  }
+
+  .card-2 {
+    margin: 0;
+    margin-top: 3rem;
+  }
+
+  .card-3 {
+    margin: 0;
+    margin-top: 5rem;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* samll Desktop and small laptops*/
+@media (min-width: 769px) {
+  .email-campaigns-card-body-1 {
+    width: 17rem;
+  }
+  .email-campaigns-card-body-2 {
+    width: 17rem;
+  }
+  .campaing-img-1 {
+    width: 17rem;
+    height: 15rem;
+    flex-shrink: 0;
+  }
+
+  .campaing-img-2 {
+    width: 17rem;
+    height: 15rem;
+  }
+
+  .email-campaigns-card-text-1 {
+    width: 15.6875rem;
+    height: 7.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+  }
+
+  .email-campaigns-card-text-2 {
+    width: 16.1875rem;
+    height: 6.9375rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+  }
+
+  .card-anchor-text {
+    width: 15.6875rem;
+    height: 1.75rem;
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 1.1875rem;
+  }
+
+  .card-text-bold {
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 3rem;
+  }
+
+  .card-text-normal-text {
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.625rem;
+  }
+
+  .card-1 {
+    margin-right: 0.3rem;
+  }
+  .card-2 {
+    margin: 0;
+    margin-top: 3rem;
+  }
+  .card-3 {
+    margin: 0;
+    margin-top: 6rem;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* Large laptop */
+@media (min-width: 1025px) {
+  .email-campaigns-card-body-1 {
+    width: 22rem;
+  }
+  .email-campaigns-card-body-2 {
+    width: 22rem;
+  }
+  .campaing-img-1 {
+    width: 22rem;
+    height: 18rem;
+  }
+
+  .campaing-img-2 {
+    width: 22rem;
+    height: 18rem;
+  }
+
+  .email-campaigns-card-text-1 {
+    width: 18rem;
+    font-size: 1.1rem;
+  }
+
+  .email-campaigns-card-text-2 {
+    width: 19rem;
+    font-size: 1.2em;
+  }
+
+  .card-anchor-text {
+    width: 15.6875rem;
+    height: 1.75rem;
+    font-size: 1.3rem;
+    line-height: 1.1875rem;
+  }
+
+  .card-text-bold {
+    font-size: 3rem;
+  }
+
+  .card-text-normal-text {
+    font-size: 1.36rem;
+    line-height: 1.625rem;
+  }
+
+  .card-1 {
+    margin-left: 7rem;
+  }
+  .card-2 {
+    margin: 0;
+    margin: 3rem auto auto 3.5rem;
+  }
+  .card-3 {
+    margin: 0;
+    margin-top: 6rem;
+  }
+}
+
+/*  */
+/*  */
+
+/*  */
+
+/*  */
+
+/*  */
+
+/* 4K  */
+
+@media (min-width: 2559px) {
+  .card-1 {
+    margin-left: 30rem;
+  }
+  .card-2 {
+    margin: 0;
+    margin: 3rem auto auto 12rem;
+  }
+  .card-3 {
+    margin: 0;
+    margin: 6rem 12rem 0 4rem;
+  }
+}
