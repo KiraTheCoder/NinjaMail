@@ -1,5 +1,5 @@
 # Ninja Mail WebApp
-WebApp --> [Ninja Mail]([https://github.com/facebook/create-react-app](https://ninja-mail-webapp.netlify.app).
+WebApp --> [Ninja Mail](https://ninja-mail-webapp.netlify.app).
 
 
 #After clone App 
