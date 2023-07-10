@@ -17,16 +17,16 @@ The project aims to showcase my skills in web development using React and Bootst
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/kirankumarrajput/NinjaMail
+  git clone https://github.com/kirankumarrajput/NinjaMail
 
 2. Navigate to the project directory:
-cd NinjaMail
+  ```cd NinjaMail```
 
 3. Install the dependencies:
-npm install
+4.   ```npm install```
 
-4. Start the development server:
-npm start
+5. Start the development server:
+  ```npm start```
 
 ## Usage
 
