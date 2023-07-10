@@ -24,3 +24,6 @@ git clone https://github.com/kirankumarrajput/NinjaMail/blob/main/README.md
 
 2. Navigate to the project directory:
 cd NinjaMail
+
+
+3. Install the dependencies:
