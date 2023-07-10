@@ -23,7 +23,7 @@ The project aims to showcase my skills in web development using React and Bootst
   ```cd NinjaMail```
 
 3. Install the dependencies:
-4.   ```npm install```
+   ```npm install```
 
 5. Start the development server:
   ```npm start```
