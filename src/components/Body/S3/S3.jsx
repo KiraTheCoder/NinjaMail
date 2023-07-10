@@ -3,14 +3,12 @@ import "./S3.css"
 const ProvenSource = () => {
     return (
         <>
-            <div className="container-fluid d-flex justify-content-center mt-3 mb-3" >
-                <div className="row g-0">
-                    {/* SVG background */}
-                    {/* <div className="svg-bg">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1060" fill="none">
-                            <path d="M0 237.83L1440.31 0V784.703L0 1059.87V237.83Z" fill="#CAEAC7" />
-                        </svg>
-                    </div> */}
+            <div className="container-fluid d-flex justify-content-center mt-3 mb-3 mt-lg-5" >
+                <div className="row g-0 ">
+
+                    <img src="./assets/GreenBG1.png" className="GreenBG1" alt="GB" />
+                    <img src="./assets/GreenBG2.png" className="GreenBG2" alt="GB" />
+                    <img src="./assets/GreenBG3.png" className="GreenBG3" alt="GB" />
 
                     <div className="col-md-4">
                         <div className="card-1">

@@ -6,8 +6,27 @@
 /* -----------email-campaigns--------------- */
 /*  */
 /*  */
-
 /*  */
+
+.GreenBG1 {
+  position: absolute;
+  translate: -0.5rem 12rem;
+  z-index: -1;
+}
+
+.GreenBG2 {
+  display: none;
+  position: absolute;
+  z-index: -1;
+}
+
+.GreenBG3 {
+  display: none;
+  position: absolute;
+  z-index: -1;
+}
+
+
 .campaing-img-1 {
   width: 13.36494rem;
   height: 11.57663rem;
@@ -53,10 +72,12 @@
   background-color: #ffffff;
   width: 13.36494rem;
 }
+
 .email-campaigns-card-body-2 {
   background-color: #ffffff;
   width: 10.625rem;
 }
+
 .email-campaigns-card-text {
   width: 15.6875rem;
   height: 7.5rem;
@@ -70,9 +91,11 @@
   line-height: 1.625rem;
   padding-left: 1rem;
 }
+
 .card-anchor-text-1 {
   margin-top: -1rem;
 }
+
 .card-anchor-text {
   display: flex;
   width: 10.25rem;
@@ -109,6 +132,7 @@
   background-color: transparent;
   border: transparent;
 }
+
 .card-2 {
   margin: 1rem 0 0 5.5rem;
   background-color: transparent;
@@ -126,14 +150,7 @@
 
 /*  */
 
-.svg-bg {
-  position: absolute;
-  width: 120.01931rem;
-  height: 40.24194rem;
-  fill: #caeac7;
-  translate: -22.650000000000006rem -28.75rem;
-  z-index: -3;
-}
+
 .email-campaigns-circle-1 {
   width: 1.0625rem;
   height: 1.0625rem;
@@ -222,7 +239,12 @@
   .card-3 {
     margin-left: 2rem;
   }
+
+  .GreenBG1 {
+    translate: -0.8rem 5rem;
+  }
 }
+
 /*  */
 /*  */
 /*  */
@@ -234,12 +256,19 @@
   .card-1 {
     margin-left: 1rem;
   }
+
   .card-2 {
     margin: 1rem 0 0 10rem;
   }
 
   .card-3 {
     margin-left: 5rem;
+  }
+
+  .GreenBG1 {
+    translate: -0.8rem 9rem;
+    height: 55rem;
+    ;
   }
 }
 
@@ -268,6 +297,16 @@
     margin: 0;
     margin-top: 5rem;
   }
+
+  .GreenBG1 {
+    display: none;
+  }
+
+  .GreenBG2 {
+    display: initial;
+    translate: -1rem -7.4rem;
+    height: 70%;
+  }
 }
 
 /*  */
@@ -281,9 +320,11 @@
   .email-campaigns-card-body-1 {
     width: 17rem;
   }
+
   .email-campaigns-card-body-2 {
     width: 17rem;
   }
+
   .campaing-img-1 {
     width: 17rem;
     height: 15rem;
@@ -299,7 +340,6 @@
     width: 15.6875rem;
     height: 7.5rem;
     font-size: 1rem;
-    font-weight: 500;
     line-height: 1.625rem;
   }
 
@@ -307,7 +347,6 @@
     width: 16.1875rem;
     height: 6.9375rem;
     font-size: 1rem;
-    font-weight: 500;
     line-height: 1.625rem;
   }
 
@@ -315,7 +354,6 @@
     width: 15.6875rem;
     height: 1.75rem;
     font-size: 1rem;
-    font-weight: 800;
     line-height: 1.1875rem;
   }
 
@@ -327,20 +365,31 @@
 
   .card-text-normal-text {
     font-size: 1em;
-    font-weight: 500;
     line-height: 1.625rem;
   }
 
   .card-1 {
     margin-right: 0.3rem;
   }
+
   .card-2 {
     margin: 0;
     margin-top: 3rem;
   }
+
   .card-3 {
     margin: 0;
     margin-top: 6rem;
+  }
+
+  .GreenBG2 {
+    display: none;
+  }
+
+  .GreenBG3 {
+    display: initial;
+    translate: -1rem -13.5rem;
+    height: 77%;
   }
 }
 
@@ -355,9 +404,11 @@
   .email-campaigns-card-body-1 {
     width: 22rem;
   }
+
   .email-campaigns-card-body-2 {
     width: 22rem;
   }
+
   .campaing-img-1 {
     width: 22rem;
     height: 18rem;
@@ -397,13 +448,20 @@
   .card-1 {
     margin-left: 7rem;
   }
+
   .card-2 {
     margin: 0;
     margin: 3rem auto auto 3.5rem;
   }
+
   .card-3 {
     margin: 0;
     margin-top: 6rem;
+  }
+
+  .GreenBG3 {
+    translate: -1rem -15rem;
+    height: 70%;
   }
 }
 
@@ -420,14 +478,22 @@
 
 @media (min-width: 2559px) {
   .card-1 {
-    margin-left: 30rem;
+    margin-left: 37rem;
   }
+
   .card-2 {
     margin: 0;
-    margin: 3rem auto auto 12rem;
+    margin: 3rem auto auto 15rem;
   }
+
   .card-3 {
     margin: 0;
-    margin: 6rem 12rem 0 4rem;
+    margin: 7rem 20rem 0 -10rem;
+    width: 50%;
+  }
+
+  .GreenBG3 {
+    translate: -1rem -15rem;
+    height: 40%;
   }
 }
