@@ -1,4 +1,4 @@
-# Ninja Mail WebApp  [Ninja Mail](https://ninja-mail-webapp.netlify.app).
+# [Ninja Mail WebApp](https://ninja-mail-webapp.netlify.app)
 
 
 This project is my first internship project created using HTML, CSS, React, and Bootstrap. It is a web application developed based on the design provided in Figma.
