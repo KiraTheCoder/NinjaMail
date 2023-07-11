@@ -231,10 +231,12 @@
     transform: translate(-7rem, -18rem);
   }
 
+
   .stunning-head {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 3.4375rem;
   }
+
 
   .stunning-para {
     font-size: 1.1rem;
@@ -271,7 +273,7 @@
 /*  */
 /* samll Desktop and small laptops*/
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   .stunning-card-img {
     width: 35.08481rem;
     height: 18.07425rem;

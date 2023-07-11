@@ -156,10 +156,9 @@
   height: 1.0625rem;
   flex-shrink: 0;
   opacity: 0.3444949984550476;
-  /* background: #f4f4f4; */
   background: #0e0d0d;
   position: absolute;
-  translate: 80rem 30rem;
+  translate: 2rem 30rem;
 }
 
 .email-campaigns-circle-2 {
@@ -170,7 +169,7 @@
   stroke: #707070;
   stroke: #000000;
   position: absolute;
-  translate: 1rem 41rem;
+  translate: -0.3rem 50rem;
 }
 
 .email-campaigns-circle-3 {
@@ -179,7 +178,7 @@
   flex-shrink: 0;
   fill: #afcbad;
   position: absolute;
-  translate: 95.5rem 30rem;
+  translate: 18rem 42rem;
 }
 
 .email-campaigns-rectangle-1 {
@@ -189,7 +188,7 @@
   opacity: 0.418953001499176;
   background: #fff;
   position: absolute;
-  translate: 1.1rem 90rem;
+  translate: 1.1rem 37rem;
 }
 
 .email-campaigns-rectangle-2 {
@@ -200,7 +199,7 @@
   opacity: 0.06074070185422897;
   background: #000;
   position: absolute;
-  translate: -7rem 20rem;
+  translate: 16rem 17rem;
 }
 
 .email-campaigns-rectangle-3 {
@@ -211,7 +210,7 @@
   opacity: 0.30239400267601013;
   background: #fff;
   position: absolute;
-  translate: 5rem 33.3rem;
+  translate: 4rem 33.3rem;
 }
 
 .email-campaigns-rectangle-4 {
@@ -222,7 +221,7 @@
   opacity: 0.3066270053386688;
   background: #fff;
   position: absolute;
-  translate: 80rem -10rem;
+  translate: 14rem 38rem;
 }
 
 /*  */
@@ -242,6 +241,18 @@
 
   .GreenBG1 {
     translate: -0.8rem 5rem;
+  }
+
+  .email-campaigns-circle-3 {
+    translate: 20rem 42rem;
+  }
+
+  .email-campaigns-rectangle-3 {
+    translate: 8rem 33.3rem;
+  }
+
+  .email-campaigns-rectangle-4 {
+    translate: 18rem 48rem;
   }
 }
 
@@ -269,6 +280,15 @@
     translate: -0.8rem 9rem;
     height: 55rem;
     ;
+  }
+
+  .email-campaigns-circle-3 {
+    translate: 23.5rem 42rem;
+  }
+
+
+  .email-campaigns-rectangle-4 {
+    translate: 20rem 48rem;
   }
 }
 
@@ -306,6 +326,30 @@
     display: initial;
     translate: -1rem -7.4rem;
     height: 70%;
+  }
+
+  .email-campaigns-circle-3 {
+    translate: 23.5rem 30rem;
+  }
+
+  .email-campaigns-circle-2 {
+    display: none;
+  }
+
+  .email-campaigns-rectangle-2 {
+    display: none;
+  }
+
+  .email-campaigns-rectangle-1 {
+    translate: 13rem 20rem;
+  }
+
+  .email-campaigns-rectangle-3 {
+    translate: 45rem 15rem;
+  }
+
+  .email-campaigns-rectangle-4 {
+    translate: -3rem 20rem;
   }
 }
 
@@ -391,6 +435,26 @@
     translate: -1rem -13rem;
     height: 100%;
   }
+
+  .email-campaigns-circle-3 {
+    translate: 61rem 3rem;
+  }
+
+  .email-campaigns-circle-2 {
+    display: none;
+  }
+
+  .email-campaigns-rectangle-1 {
+    translate: 13rem 20rem;
+  }
+
+  .email-campaigns-rectangle-4 {
+    translate: -3rem 20rem;
+  }
+
+  .email-campaigns-rectangle-3 {
+    translate: 55rem 28rem;
+  }
 }
 
 /*  */
@@ -462,6 +526,12 @@
   .GreenBG3 {
     translate: -1rem -13rem;
     height: 110%;
+  }
+  .email-campaigns-circle-3{
+    translate: 87rem ;
+  }
+  .email-campaigns-rectangle-3{
+    translate: 80rem 30rem ;
   }
 }
 
