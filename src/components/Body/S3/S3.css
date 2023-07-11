@@ -388,8 +388,8 @@
 
   .GreenBG3 {
     display: initial;
-    translate: -1rem -13.5rem;
-    height: 77%;
+    translate: -1rem -13rem;
+    height: 100%;
   }
 }
 
@@ -460,8 +460,8 @@
   }
 
   .GreenBG3 {
-    translate: -1rem -15rem;
-    height: 70%;
+    translate: -1rem -13rem;
+    height: 110%;
   }
 }
 
@@ -494,6 +494,6 @@
 
   .GreenBG3 {
     translate: -1rem -15rem;
-    height: 40%;
+    height: 80%;
   }
 }
