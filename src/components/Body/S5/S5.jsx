@@ -31,19 +31,19 @@ const InputAndBrandText = () => {
 
                 <div class=" container-fluid mt-0 d-flex justify-content-center justify-space-between align-items-center">
                     <div class="row mt-0 logos-container d-flex justify-content-center align-items-center">
-                        <div class="col  col-lg-2 col-md-3  col-6  text-center">
+                        <div class="col  col-lg-2 col-md-3  col-6  text-center brand-img-container">
                             <img class="brand-img-1" src="../assets/Image1.png" alt="img1" />
                         </div>
-                        <div class="col col-lg-2 col-md-3   col-6  text-center">
+                        <div class="col col-lg-2 col-md-3   col-6  text-center brand-img-container">
                             <img class="brand-img-2" src="../assets/Image2.png" alt="img2" />
                         </div>
-                        <div class="col  col-lg-2 col-md-3   col-6  text-center">
+                        <div class="col  col-lg-2 col-md-3   col-6  text-center brand-img-container">
                             <img class="brand-img-3" src="../assets/Image3.png" alt="img3" />
                         </div>
-                        <div class="col  col-lg-2 col-md-3   col-6 text-center">
+                        <div class="col  col-lg-2 col-md-3   col-6 text-center brand-img-container">
                             <img class="brand-img-4" src="../assets/Image4.png" alt="img4" />
                         </div>
-                        <div class="col col-lg-3 col-md-3  col-6  text-center">
+                        <div class="col col-lg-3 col-md-3  col-6  text-center brand-img-container">
                             <img class="brand-img-5" src="../assets/Image5.png" alt="img5" />
                         </div>
                     </div>
