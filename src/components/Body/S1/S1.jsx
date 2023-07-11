@@ -30,7 +30,7 @@ const Stunning = () => {
 
                     {/* svg elements */}
 
-                    {/* <span className='Stunning-circle-1 z-4'>
+                    <span className='Stunning-circle-1 z-4'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
                             <circle cx="5.5" cy="5.5" r="5" fill="white" stroke="#707070" />
                         </svg>
@@ -72,7 +72,7 @@ const Stunning = () => {
 
                     <span className='Stunning-rectangle-4 z-4'>
 
-                    </span> */}
+                    </span>
                 </div>
             </div >
         </>
