@@ -88,6 +88,7 @@
   stroke: #707070;
   position: absolute;
   translate: 0.51rem -3.5rem;
+  z-index: -5;
 }
 
 .Stunning-circle-2 {
@@ -104,6 +105,8 @@
   stroke: #000000;
   position: absolute;
   translate: 4rem 7rem;
+  z-index: -5;
+
 }
 
 .Stunning-circle-4 {
@@ -112,12 +115,14 @@
   flex-shrink: 0;
   fill: #d9f4f2;
   position: absolute;
+  z-index: -5;
   translate: 11rem -0.5rem;
 }
 
 .Stunning-rectangle-1 {
   position: absolute;
   translate: 18rem 11rem;
+  z-index: -5;
 
 }
 
@@ -128,7 +133,8 @@
   opacity: 0.7955330014228821;
   background: #f4f4f4;
   position: absolute;
-  translate: 18rem -2rem;
+  display: none;
+  z-index: -5;
 }
 
 .Stunning-rectangle-4 {
@@ -138,6 +144,7 @@
   background: #f4bebd;
   position: absolute;
   translate: 6rem 18.5rem;
+  z-index: -5;
 
 }
 
@@ -181,7 +188,7 @@
   .stunning-card-img {
     width: 29.504rem;
     height: 13.68094rem;
-    transform: translate(-6rem, -14rem);
+    transform: translate(-6rem, -13rem);
   }
 
   .stunning-head {
@@ -238,7 +245,8 @@
   }
 
   .Stunning-rectangle-3 {
-    translate: 21rem -4.7rem;
+    display: initial;
+    translate: 20rem -4.2rem;
 
   }
 
@@ -261,7 +269,7 @@
   .stunning-card-img {
     width: 35.08481rem;
     height: 18.07425rem;
-    transform: translate(-7rem, -18rem);
+    transform: translate(-7rem, -16rem);
   }
 
 
@@ -317,14 +325,11 @@
 
   .Stunning-rectangle-1 {
     translate: 35rem 11rem;
-
-
   }
 
   .Stunning-rectangle-3 {
-    translate: 31.5rem -4.7rem;
+    translate: 25rem -5rem;
   }
-
   .Stunning-rectangle-4 {
     translate: 6rem 15rem;
   }
@@ -352,10 +357,10 @@
     font-size: 1.2rem;
     margin-right: -2rem;
   }
-  .Stunning-rectangle-3 {
-    display: none;
-  }
 
+  .Stunning-rectangle-3 {
+    translate: 33rem -7rem;
+  }
 
 }
 
@@ -425,68 +430,34 @@
   /*  */
   /* Samll elements */
   .Stunning-circle-1 {
-    width: 0.6875rem;
-    height: 0.6875rem;
-    flex-shrink: 0;
-    fill: #fff;
-    stroke-width: 1px;
-    stroke: #707070;
-    position: absolute;
     translate: -24rem -2rem;
   }
 
   .Stunning-circle-2 {
-    width: 0.6875rem;
-    height: 0.6875rem;
-    flex-shrink: 0;
-    fill: #fff;
-    stroke-width: 1px;
-    stroke: #707070;
-    position: absolute;
     translate: -20rem 18rem;
   }
 
   .Stunning-circle-3 {
-    width: 0.6875rem;
-    height: 0.6875rem;
-    flex-shrink: 0;
-    fill: #fff;
-    stroke-width: 1px;
-    stroke: #000000;
-    position: absolute;
+
     translate: -3rem 150rem;
   }
 
   .Stunning-circle-4 {
-    width: 2.3125rem;
-    height: 2.3125rem;
-    flex-shrink: 0;
-    fill: #d9f4f2;
-    position: absolute;
+
     translate: 300px 5px;
   }
 
   .Stunning-rectangle-1 {
-    position: absolute;
     translate: 560px -25px;
   }
 
   .Stunning-rectangle-3 {
-    width: 1rem;
-    height: 1rem;
-    flex-shrink: 0;
-    opacity: 0.7955330014228821;
-    background: #f4f4f4;
-    position: absolute;
+
     translate: 760px 8px;
   }
 
   .Stunning-rectangle-4 {
-    width: 2.49288rem;
-    height: 2.49288rem;
-    transform: rotate(45deg);
-    background: #f4bebd;
-    position: absolute;
+
     translate: -270px 430px;
   }
 
@@ -514,7 +485,7 @@
   }
 
   .Stunning-rectangle-3 {
-    display: none;
+    translate: 39rem -5rem;
   }
 
   .Stunning-rectangle-4 {
