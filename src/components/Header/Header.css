@@ -2,11 +2,13 @@
 .nav-link {
   display: none;
 }
+
 .nav-list {
   list-style-type: none;
 }
+
 .nav-bar-container {
-  min-width: 100vw;
+  width: 100%;
   min-height: 3.175rem;
   background: #fff;
   display: flex;
@@ -23,6 +25,7 @@
 .NinjaMail-lmage-Text-conatiner {
   display: flex;
 }
+
 .mailImage {
   padding-right: -1rem;
   width: 5.25rem;
@@ -59,7 +62,8 @@
 
 /*  */
 /*  */
-/*  */ /*  */
+/*  */
+/*  */
 /*  */
 /* medium mobile  */
 
@@ -79,6 +83,7 @@
   .nav-bar-container {
     top: 0;
   }
+
   .navbar-btn {
     width: 7.4rem;
     height: 1.9rem;
@@ -97,10 +102,14 @@
 
 /* 
 CSS styles for tablets  */
-@media (min-width: 426px) {
+@media (min-width: 500px) {
+
+  .nav-bar-container {
+    width: 100%;
+  }
+
   .nav-link {
     color: #000;
-    font-family: Raleway;
     font-size: 0.6875rem;
     font-style: normal;
     font-weight: 800;
@@ -127,18 +136,28 @@ CSS styles for tablets  */
 /*  */
 /*  */
 /*  */
+
+@media (min-width: 700px) {
+
+  .NinjaMail-lmage-Text-conatiner {
+    margin-right: 5rem;
+  }
+
+}
 /*  */
 /*  */
 
 /*small Desktop and small laptop*/
-@media (min-width: 769px) {
+@media (min-width: 890px) {
   .NinjaMail-lmage-Text-conatiner {
-    margin-right: 12.5rem;
+    margin-right: 7rem;
   }
+
   .mailImage {
     width: 6.25rem;
     height: 3.625rem;
   }
+
   .NinjaMailmageText {
     color: #000;
     font-size: 1.975rem;
@@ -208,14 +227,74 @@ CSS styles for tablets  */
     margin-left: -3rem;
   }
 }
-/*  */
+
 /*  */
 /*  */
 /*  */
 /*  */
 
+
+
+
 /* larger device */
-@media (min-width: 1090px) {
+@media (min-width: 1000px) {
+  .NinjaMail-lmage-Text-conatiner {
+    margin-right: min(5rem);
+  }
+
+
+  .nav-link {
+    margin: 0rem;
+  }
+
+  .navbar-btn {
+    margin-left: 0.5rem;
+  }
+
+}
+
+/*  */
+/* larger device */
+@media (min-width: 1100px) {
+  .NinjaMail-lmage-Text-conatiner {
+    margin-right: min(8rem);
+  }
+
+  .navbar-btn {
+    margin-left: 1rem;
+  }
+
+}
+
+
+
+/* larger device */
+@media (min-width: 1200px) {
+  .NinjaMail-lmage-Text-conatiner {
+    margin-right: min(15rem);
+  }
+
+  .navbar-btn {
+    margin-left: 1rem;
+  }
+
+}
+
+
+/* larger device */
+@media (min-width: 1300px) {
+  .NinjaMail-lmage-Text-conatiner {
+    margin-right: min(20rem);
+  }
+
+  .navbar-btn {
+    margin-left: 1rem;
+  }
+
+}
+
+/* larger device */
+@media (min-width: 1440px) {
   .NinjaMail-lmage-Text-conatiner {
     margin-right: min(26rem);
   }
