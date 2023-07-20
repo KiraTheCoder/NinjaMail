@@ -17,7 +17,7 @@ The project aims to showcase my skills in web development using React and Bootst
 ## Installation
 
 1. Clone the repository:
-  ```git clone https://github.com/kirankumarrajput/NinjaMail```
+  ```git clone https://github.com/KiraTheCoder/NinjaMail```
 
 2. Navigate to the project directory:
   ```cd NinjaMail```
